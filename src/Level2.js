@@ -83,6 +83,7 @@ const Level2 = ({ onNext, onPrev }) => {
   return (
     <div style={{ position: 'relative', backgroundColor: '#D8F7F2', height: 'calc(100vh - 100px)', zIndex: 1 }}>
       <div
+        className='images'
         style={{
           position: 'absolute',
           width: `${imageSize.width}px`,
@@ -94,6 +95,7 @@ const Level2 = ({ onNext, onPrev }) => {
         }}
       />
       <div
+        className='images'
         style={{
           position: 'absolute',
           width: `${imageSize.width}px`,
@@ -106,6 +108,7 @@ const Level2 = ({ onNext, onPrev }) => {
       />
       <Draggable position={headPosition} onStop={onStopHead} nodeRef={headRef}>
         <div
+          className='images'
           ref={headRef}
           style={{
             position: 'absolute',
@@ -118,6 +121,7 @@ const Level2 = ({ onNext, onPrev }) => {
       </Draggable>
       <Draggable position={deerPosition} onStop={onStopDeer} nodeRef={deerRef}>
         <div
+          className='images'
           ref={deerRef}
           style={{
             position: 'absolute',
