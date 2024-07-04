@@ -137,7 +137,7 @@ const Level2 = ({ onNext, onPrev }) => {
           zIndex: 2
         }}
       >
-        Trials: {trialCount}
+        Trial: {trialCount}
       </div>
     </div>
   );
