@@ -1,6 +1,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import Draggable from 'react-draggable';
+import './style.css';
 
 const Level2 = ({ onNext, onPrev }) => {
   const [trialCount, setTrialCount] = useState(0);
